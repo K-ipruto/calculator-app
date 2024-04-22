@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: hsl(222, 26%, 31%);
+  border: none; 
+}
+body{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+h1{
+  font-size:25px;
+  color: white;
+  padding-bottom:5px ;
+  text-transform: lowercase;
+  position: relative;
+  top: 15px;
+ 
+  
+}
+h2{
+  position: relative;
+  left: 200px;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: white;
+  bottom: 13px;
+}
+#display{
+   width: 100%;
+   height: 60px;
+   margin-bottom: 20px;
+   background-color:  hsl(224, 36%, 15%);
+   border-radius: 8px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 4fr);
+  gap: 15px;
+  width: 350px;
+  height: 350px;
+  border-radius: 0px;
+  background-color:  hsl(224, 36%, 15%);
+  color: white;
+  font-size: 1000px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.big {
+  grid-column: span 2;
+}
+button {
+  background-color: white;
+  border-radius: 13px;
+  color: hsl(225, 21%, 49%);
+  font-size: 30px;
+  font-weight: 600;
+}
+#equal {
+  background-color: hsl(6, 63%, 50%);
+  color: white;
+}
+.display {
+  position: relative;
+  bottom: 200px;
+  left: 100px;
+  width: 500px;
+  border-radius: 100px;
+}
+
+
+
+#del{
+   color: white;
+   background-color:hsl(225, 21%, 49%); 
+   
+}
+#reset{
+   color: white;
+   background-color:hsl(225, 21%, 49%); 
+}
